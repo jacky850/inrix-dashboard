@@ -22,9 +22,7 @@ Notes:
 - If you previously used local-only resources (SQLite files, local TomTom tokens), do NOT commit sensitive tokens to GitHub.
 
 """
-import st
-
-import streamlit_fix as st
+import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
@@ -342,3 +340,4 @@ st.info("Deployment: commit this file and a requirements.txt to GitHub and conne
 
 # Footer
 st.caption("Converted to Streamlit by your assistant. If you want I can also produce a small README and a requirements.txt file for the repo.")
+
